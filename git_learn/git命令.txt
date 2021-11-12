@@ -4,3 +4,5 @@ git clone git@github.com:lengwan/XXXX(仓库).git
   文件提交 –m可以添加信息
 3.git log可以查看日志
 4.git show 可以查看每个版本的历史
+5.git branch NewX 创建新的分支
+6.git checkout XXX 移动HEAD指针
