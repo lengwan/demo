@@ -1,0 +1,6 @@
+1.SSH秘钥下载
+git clone git@github.com:lengwan/XXXX(仓库).git
+2. git add   ----- git commit -------git push
+  文件提交 –m可以添加信息
+3.git log可以查看日志
+4.git show 可以查看每个版本的历史
