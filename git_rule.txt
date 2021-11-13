@@ -9,3 +9,5 @@ git clone git@github.com:lengwan/XXXX(仓库).git
 7.git restore XXX 恢复XXX文件到和缓存区一样的修改前
   git restore --staged  XXX将XXX恢复到工作区重新修改
 8. git branch -m main git_learn 修改分支的名称
+9.git branch--set-upstream-to origin/git_learn 设置本地分支和远程连接
+10.xxxxxxxxxx
