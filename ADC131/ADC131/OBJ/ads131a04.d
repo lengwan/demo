@@ -3,7 +3,7 @@
 ..\obj\ads131a04.o: ..\SYSTEM\sys\sys.h
 ..\obj\ads131a04.o: ..\USER\stm32f10x.h
 ..\obj\ads131a04.o: ..\CORE\core_cm3.h
-..\obj\ads131a04.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ads131a04.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\ads131a04.o: ..\USER\system_stm32f10x.h
 ..\obj\ads131a04.o: ..\USER\stm32f10x_conf.h
 ..\obj\ads131a04.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -32,4 +32,4 @@
 ..\obj\ads131a04.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\ads131a04.o: ..\HARDWARE\ADS131A04\mcp_myspi.h
 ..\obj\ads131a04.o: ..\SYSTEM\delay\delay.h
-..\obj\ads131a04.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\ads131a04.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h

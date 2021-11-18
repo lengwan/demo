@@ -15,7 +15,7 @@
 ////////////////////////////////////////////////////////////////////////////////// 
 #define LED0 PBout(5)	// PA8
 #define LED1 PEout(5)	// PD2	
-
+#define MAI  PEout(6)
 void LED_Init(void);//≥ı ºªØ
 
 		 				    
