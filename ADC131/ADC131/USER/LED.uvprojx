@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\ADS131A04</IncludePath>
+              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\ADS131A04;..\HARDWARE\MYTIM;..\HARDWARE\KEY</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -449,9 +449,14 @@
               <FilePath>..\HARDWARE\ADS131A04\mcp_myspi.c</FilePath>
             </File>
             <File>
-              <FileName>myfilter.c</FileName>
+              <FileName>mytim.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\ADS131A04\myfilter.c</FilePath>
+              <FilePath>..\HARDWARE\MYTIM\mytim.c</FilePath>
+            </File>
+            <File>
+              <FileName>mykey.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\KEY\mykey.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -512,6 +517,16 @@
               <FileName>misc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\STM32F10x_FWLib\src\misc.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32F10x_FWLib\src\stm32f10x_tim.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32F10x_FWLib\src\stm32f10x_exti.c</FilePath>
             </File>
           </Files>
         </Group>

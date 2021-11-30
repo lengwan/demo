@@ -34,3 +34,6 @@
 ..\obj\main.o: ..\SYSTEM\usart\usart.h
 ..\obj\main.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\main.o: ..\HARDWARE\ADS131A04\demo131a04.h
+..\obj\main.o: ..\HARDWARE\MYTIM\mytim.h
+..\obj\main.o: ..\HARDWARE\MYTIM\mytim.h
+..\obj\main.o: ..\HARDWARE\KEY\mykey.h
